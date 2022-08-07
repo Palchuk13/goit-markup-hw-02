@@ -1,0 +1,28 @@
+:root{
+--primary-font-family: 'Roboto','Raleway','Arial', sans-serif;
+--primary-text-color: #757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--primary-background-color:#FFFFFF;
+}
+body{
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+.title{
+    color: var(--title-text-color);
+    font-weight: 700;
+}
+.button {
+    cursor: pointer;
+}
