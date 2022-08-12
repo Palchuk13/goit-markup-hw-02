@@ -117,6 +117,9 @@
     text-align: center;
 }
 /* Team */
+.team{
+    background-color: var(--secondary-background-color);
+}
 .team >.list >.section-title{
     font-weight: 500;
     font-size: 16px;
