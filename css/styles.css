@@ -25,6 +25,7 @@
     color: var(--title-text-color);
 }
 /* Header */
+
 .logo {
     color: var(--title-text-color);
     font-family: 'Raleway';
@@ -107,6 +108,9 @@
 .feature .section-title{
     line-height: 1.14;
     text-transform: uppercase;
+}
+.feature>.list>.desc{
+    line-height: 1.71;
 }
 /* Work */
 .work > .section-title, .team > .section-title{
