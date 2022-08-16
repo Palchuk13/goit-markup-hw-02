@@ -1,5 +1,5 @@
 :root{
---primary-font-family: 'Roboto','Raleway','Arial', sans-serif;
+--primary-font-family: 'Roboto', 'Raleway', 'Arial', sans-serif;
 --primary-text-color: #757575;
 --title-text-color:#212121;
 --accent-color:#2196F3;
@@ -23,13 +23,11 @@
 }
 .section-title {
     color: var(--title-text-color);
-    font-weight: 700;
 }
 /* Header */
 .logo {
     color: var(--title-text-color);
     font-family: 'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
 }
@@ -148,7 +146,6 @@
 }
 /* Filter section */
 .filter >.section-title{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
